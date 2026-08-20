@@ -218,7 +218,6 @@ Update the `RAW_DATA_DIR` and `PREPROCESSED_DATA_DIR` paths at the top of each s
 5. Elwasify et al. (2026). EEG Imagined Speech Neuro-Signal Preprocessing and Deep Learning Classification. *Scientific Reports*.
 
 > These citations are from the project's literature review. Verify DOIs before using in academic submissions.
-
 ---
 
 ## Context
@@ -227,6 +226,3 @@ Final-year project, Department of Biomedical Engineering, CEG, Anna University. 
 
 ---
 
-## License
-
-MIT — free for research and educational use.
