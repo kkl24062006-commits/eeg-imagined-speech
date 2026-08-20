@@ -1,0 +1,6 @@
+numpy
+scipy
+matplotlib
+mne
+scikit-learn
+h5py
