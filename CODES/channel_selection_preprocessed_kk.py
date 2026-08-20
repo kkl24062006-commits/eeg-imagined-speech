@@ -27,9 +27,9 @@ matplotlib.use("Agg")
 # ============================================================
 # CONFIG
 # ============================================================
-PREPROCESSED_FOLDER = r"C:\Users\kkl24\Downloads\BCI_project\preprocessed_data"
+PREPROCESSED_FOLDER = r"C:\Users\kkl24\Downloads\CMRG_PROJECT_EEG_BASED_IMAGINED_SPEECH\preprocessed_data"
 ORIGINAL_MAT = r"C:\Users\kkl24\Downloads\pq7vb-osfstorage-Track#3 Imagined speech classification-archive\Training set\Data_Sample01.mat"
-OUTPUT_FOLDER = r"C:\Users\kkl24\Downloads\BCI_project\channel_selection_results"
+OUTPUT_FOLDER = r"C:\Users\kkl24\Downloads\CMRG_PROJECT_EEG_BASED_IMAGINED_SPEECH\channel_selection_results"
 # ============================================================
 
 TOP_N = 20

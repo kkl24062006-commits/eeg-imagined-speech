@@ -22,9 +22,9 @@ from scipy.stats import f_oneway, ttest_rel, wilcoxon
 # ============================================================
 # CONFIG
 # ============================================================
-PREPROCESSED_FOLDER = r"C:\Users\kkl24\Downloads\BCI_project\preprocessed_data"
+PREPROCESSED_FOLDER = r"C:\Users\kkl24\Downloads\CMRG_PROJECT_EEG_BASED_IMAGINED_SPEECH\preprocessed_data"
 RAW_FOLDER = r"C:\Users\kkl24\Downloads\pq7vb-osfstorage-Track#3 Imagined speech classification-archive\Training set"
-OUTPUT_FOLDER = "hemisphere_verification"
+OUTPUT_FOLDER = r"C:\Users\kkl24\Downloads\CMRG_PROJECT_EEG_BASED_IMAGINED_SPEECH\OP_IMAGES\hemisphere_verification"
 # ============================================================
 
 BANDS = {
@@ -279,7 +279,7 @@ def main():
     axes[0].set_xticks(x_pos)
     axes[0].set_xticklabels([f"S{i+1}" for i in range(n_subj)], fontsize=8)
     axes[0].set_ylabel("Mean F-score")
-    axes[0].set_title(f"Raw Data: Left vs Right\n(Left wins {raw_left_wins}/{n_subj})")
+    axes[0].set_title(f"Raw Data: Left vs Right\nLeft - {raw_left_wins}/{n_subj}   Right - {raw_right_wins}/{n_subj}")
     axes[0].legend()
 
     axes[1].bar(x_pos - width/2, prep_left_per_subj, width, label="Prep - Left",
@@ -289,7 +289,7 @@ def main():
     axes[1].set_xticks(x_pos)
     axes[1].set_xticklabels([f"S{i+1}" for i in range(n_subj)], fontsize=8)
     axes[1].set_ylabel("Mean F-score")
-    axes[1].set_title(f"Preprocessed Data: Left vs Right\n(Left wins {prep_left_wins}/{n_subj})")
+    axes[1].set_title(f"Preprocessed Data: Left vs Right\nLeft - {prep_left_wins}/{n_subj}   Right - {prep_right_wins}/{n_subj}")
     axes[1].legend()
 
     plt.suptitle("HEMISPHERE VERIFICATION", fontsize=14, fontweight="bold")
