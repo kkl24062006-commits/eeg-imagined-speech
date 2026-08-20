@@ -217,7 +217,7 @@ Update the `RAW_DATA_DIR` and `PREPROCESSED_DATA_DIR` paths at the top of each s
 4. Alonso-Vázquez et al. (2025). From Pronounced to Imagined: Improving Speech Decoding with Multi-Condition EEG Data. *Frontiers in Neuroinformatics*.
 5. Elwasify et al. (2026). EEG Imagined Speech Neuro-Signal Preprocessing and Deep Learning Classification. *Scientific Reports*.
 
-> These citations are from the project's literature review. Verify DOIs before using in academic submissions.
+
 ---
 
 ## Context
